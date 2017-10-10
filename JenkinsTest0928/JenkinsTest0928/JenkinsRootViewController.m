@@ -25,6 +25,13 @@
     label.layer.masksToBounds = YES;
     label.layer.cornerRadius = 50;
     [self.view addSubview:label];
+    
+    
+    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
+    label1.backgroundColor = [UIColor yellowColor];
+    label1.layer.masksToBounds = YES;
+    label1.layer.cornerRadius = 50;
+    [self.view addSubview:label1];
 }
 
 
